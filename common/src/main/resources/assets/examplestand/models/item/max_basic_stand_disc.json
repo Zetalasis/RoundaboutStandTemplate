@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "examplestand:item/max_basic_stand_disc"
+  }
+}
