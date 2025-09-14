@@ -4,7 +4,9 @@ A template for creating a stand addon for the mod [Roundabout](https://github.co
 
 ## Getting Started
 This code is kind-of complex. Most of the instructions will be copied over from the [Multiloader Template](https://github.com/jaredlll08/MultiLoader-Template/tree/1.20.1) that this repo is designed around, but there are quite a few specific ones.
-After setting this up to personalize it, i.e. changing the mod author, mod id, and whatnot. See if you can run Minecraft, If not, try to debug it.
+You'll need to download the [Roundabout](https://github.com/Hydraheads/RoundaboutMod/) source code, and compile the <code>common</code> module. If you want to test in your IDE, you'll also need to compile forge/fabric (or get them off Curseforge/Modrinth.)
+In the root folder, create a folder called <code>libs</code> and place the built common jar in there. Update gradle.properties with the Roundabout version you are using aswell.<br><br>
+After setting up the lib and setting this up to personalize it, i.e. changing the mod author, mod id, and whatnot. See if you can run Minecraft, If not, try to debug it.
 Assuming you can run Minecraft, you should be free to start looking through the code. It's quite a bit messy, but I've designed it to be *mostly* common-sided.<br><br>
 
 
